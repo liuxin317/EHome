@@ -1,0 +1,411 @@
+.banner .banner-img {
+    font-size: 0;
+}
+
+.banner .banner-img img{
+    width: 100%;
+}
+
+.banner-descs {
+    height: 1.3rem;
+    padding: .2rem .25rem;
+    background-color: white;
+}
+
+.banner-descs h6 {
+    font-size: 14px;
+    color: #565656;
+}
+
+.banner-descs .descs-info {
+    margin-top: 10px;
+    line-height: .3rem;
+}
+
+.banner-descs .descs-info em i {
+    font-size: 16px;
+}
+
+.banner-descs .descs-info span {
+    color: #a4a4a4;
+}
+
+.snail-box {
+    margin-top: .2rem;
+    padding: 1px .25rem .8rem;
+    background: white url('../images/snail_bk.png') repeat-x center bottom / auto .35rem;
+}
+
+.snail-box .snail-content {
+    margin-top: .55rem;
+}
+
+.snail-listed li {
+    width: 25%;
+    height: 1.2rem;
+    background: url('../images/snail_icon_right.png') no-repeat right .35rem / .1rem;
+}
+
+.snail-listed li:last-of-type {
+    background: none;
+}
+
+.snail-listed li .icon-frame {
+    width: .8rem;
+    height: .8rem;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: .3rem;
+    background-color: #00bd4f;
+}
+
+.icon-frame img {
+    width: 100%;
+}
+
+.snail-listed li .intro {
+    margin-top: .1rem;
+    text-align: center;
+    font-size: .26rem;
+    color: #515151;
+}
+
+.service-box {
+    padding: 0 .25rem;
+}
+
+.column-title .intro {
+    font-size: .18rem;
+    color: #00bd4f;
+    font-weight: normal;
+}
+
+.service-content {
+    margin-top: .3rem;
+}
+
+.service-content ul > li {
+    position: relative;
+    width: 33.3%;
+    height: 1.45rem;
+    overflow: hidden;
+    background-color: #00bd4f;
+}
+
+.service-content ul > li:nth-child(2n) {
+    background-color: #00a545;
+}
+
+.service-content ul > li .list-group {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    font-size: .2rem;
+    color: white;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.service-content .list-group .number{
+    margin-bottom: .1rem;
+    font-weight: 600;
+}
+
+.project-box {
+    padding: .62rem .25rem .9rem;
+    background: url('../images/project_bk.jpg') no-repeat center top / 100% 100%;
+}
+
+.project-box .column-title {
+    margin-bottom: .4rem;
+}
+
+.project-group {
+    margin-top: .2rem;
+    background-color: white;
+    border-radius: .1rem .1rem 0 0;
+}
+
+.project-group .img-group {
+    position: relative;
+    height: 4.55rem;
+    border-radius: .1rem;
+    overflow: hidden;
+}
+
+.project-group .img-group img {
+    width: 100%;
+    height: 4.55rem;
+}   
+
+.project-group .img-group .intro {
+    position: absolute;
+    top: .15rem;
+    left: 50%;
+    width: 50%;
+    height: .52rem;
+    text-align: center;
+    line-break: .52rem;
+    font-size: .2rem;
+    color: white;
+    border: none;
+    border-radius: .52rem;
+    background-color: #00bd4f;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+}
+
+.project-group .img-group .intro em {
+    font-size: .24rem;
+    font-weight: bold;
+    color: white;
+}
+
+.project-group .btn-group {
+    padding: .1rem .1rem 0;
+    font-size: 0;
+}
+
+.project-group .btn-group button {
+    width: 32%;
+    padding: .15rem .1rem;
+    margin-bottom: .1rem;
+    margin-right: 2%;
+    text-align: center;
+    line-height: .25rem;
+    font-size: 12px;
+    color: #00bd4f;
+    background-color: white;
+    border-radius: .4rem;
+    border: #00bd4f solid 1px;
+}
+
+.project-group .btn-group button:active {
+    background-color: #00bd4f;
+    color: white;
+}
+
+.project-group .btn-two-group button {
+    width: 49%;
+}
+
+.project-group .btn-group button:nth-child(3n),
+.project-group .btn-two-group button:nth-child(2n) {
+    margin-right: 0;
+}
+
+.project-group .btn-two-group button:nth-child(3n) {
+    margin-right: 2%;
+}
+
+.tool-box {
+    padding: 0 .25rem;
+    background-color: white;
+}
+
+.tool-box .column-title {
+    margin-top: 0;
+}
+
+.tool-content {
+    padding: .3rem 0;
+}
+
+.house-foot {
+    margin-bottom: .8rem;
+}
+
+.tool-content img,
+.house-foot img {
+    width: 100%;
+}
+
+.fixed-btn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    font-size: 0;
+    box-shadow: 0 -2px 3px rgba(0,0,0,.1);
+}
+
+.fixed-btn button {
+    float: left;
+    width: 50%;
+    height: .8rem;
+    border: none;
+    background-color: white;
+    text-align: center;
+    line-height: .8rem;
+    font-size: .24rem;
+    color: #00bd4f;
+}
+
+.fixed-btn button.active {
+    background-color: #00bd4f;
+    color: white;
+}
+
+.fixed-btn button .icon {
+    padding-left: .4rem;
+    background: url('../images/fixed_icon.png') no-repeat left center / .35rem;
+}
+
+.submit-modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 11;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.2);
+}
+
+.modal-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: .25rem;
+    background-color: white;
+}
+
+.modal-content .close {
+    position: absolute;
+    top: .25rem;
+    right: .25rem;
+    width: .5rem;
+    height: .5rem;
+    text-align: right;
+}
+
+.modal-content .close img {
+    width: .3rem;
+    height: .3rem;
+}
+
+.modal-content .img-group {
+    margin-top: .3rem;
+    padding-bottom: .1rem;
+    border-bottom: #eee solid 1px;
+}
+
+.modal-content .img-group .img {
+    width: 48%;
+    height: 2.15rem;
+    overflow: hidden;
+}
+
+.modal-content .img-group .info {
+    position: relative;
+    width: 50%;
+    height: 2.15rem;
+    margin-left: 2%;
+}
+
+.modal-content .img-group .info .info-cent {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.img-group .info .info-cent .money {
+    color: #ff4c4c;
+}
+
+.img-group .info .info-cent .money em {
+    font-size: 14px;
+}
+
+.img-group .info .info-cent .text {
+    margin-top: .1rem;
+    color: #515151;
+}
+
+.modal-content .modal-frame {
+    padding-bottom: .1rem;
+    border-bottom: #eee solid 1px;
+}
+
+.modal-content .modal-frame .input-group {
+    margin-top: .2rem;
+    line-height: .5rem;
+}
+
+.modal-frame .input-group .name {
+    width: 15%;
+    color: #515151;
+}
+
+.modal-frame .input-group .input {
+    width: 83%;
+    margin-left: 2%;
+}
+
+.modal-frame .input-group .input input {
+    width: 50%;
+    height: .5rem;
+    padding-left: .15rem;
+    border-radius: .5rem;
+    border: #ccc solid 1px;
+}
+
+.modal-frame .input-group .select {
+    width: 50%;
+    height: .5rem;
+    overflow: hidden;
+    padding-left: .15rem;
+    border-radius: .5rem;
+    border: #ccc solid 1px;
+    background: url('../images/modal_icon.png') no-repeat 96% center / .2rem;
+}
+
+.modal-frame .input-group .select select {
+    width: 110%;
+    height: .5rem;
+    line-height: .5rem;
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+
+.modal-frame .select-group .select {
+    width: 30%;
+    padding-left: 0;
+}
+
+.modal-frame .select-group .select select {
+    width: 95%;
+    margin-left: -10%;
+    color: #666;
+}
+
+.modal-frame .input-group .input-wid input{
+    width: 90%;
+}
+
+.modal-content .btn {
+    margin-top: .3rem;
+}
+
+.modal-content .btn button {
+    display: block;
+    width: 80%;
+    height: .6rem;
+    margin: 0 auto;
+    border: none;
+    border-radius: .6rem;
+    text-align: center;
+    line-height: .6rem;
+    background-color: #00bd4f;
+    font-size: .24rem;
+    color: white;
+}
