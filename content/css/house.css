@@ -284,7 +284,7 @@
     top: .25rem;
     right: .25rem;
     width: .5rem;
-    height: .5rem;
+    height: .6rem;
     text-align: right;
 }
 
@@ -332,13 +332,13 @@
 }
 
 .modal-content .modal-frame {
-    padding-bottom: .1rem;
+    padding-bottom: .2rem;
     border-bottom: #eee solid 1px;
 }
 
 .modal-content .modal-frame .input-group {
     margin-top: .2rem;
-    line-height: .5rem;
+    line-height: .6rem;
 }
 
 .modal-frame .input-group .name {
@@ -353,7 +353,7 @@
 
 .modal-frame .input-group .input input {
     width: 50%;
-    height: .5rem;
+    height: .6rem;
     padding-left: .15rem;
     border-radius: .5rem;
     border: #ccc solid 1px;
@@ -361,7 +361,7 @@
 
 .modal-frame .input-group .select {
     width: 50%;
-    height: .5rem;
+    height: .6rem;
     overflow: hidden;
     padding-left: .15rem;
     border-radius: .5rem;
@@ -371,15 +371,24 @@
 
 .modal-frame .input-group .select select {
     width: 110%;
-    height: .5rem;
-    line-height: .5rem;
+    height: .6rem;
+    line-height: .6rem;
     border: none;
     background-color: rgba(0,0,0,0);
+    padding: 0;
 }
 
 .modal-frame .select-group .select {
     width: 30%;
     padding-left: 0;
+}
+
+.modal-frame .select-group-style .select {
+    width: 30%;
+}
+
+.modal-frame .select-group-style .select select {
+    width: 120%;
 }
 
 .modal-frame .select-group .select select {
@@ -390,6 +399,7 @@
 
 .modal-frame .input-group .input-wid input{
     width: 90%;
+    margin-bottom: 0;
 }
 
 .modal-content .btn {
@@ -399,12 +409,13 @@
 .modal-content .btn button {
     display: block;
     width: 80%;
-    height: .6rem;
+    height: .7rem;
+    padding: 0;
     margin: 0 auto;
     border: none;
-    border-radius: .6rem;
+    border-radius: .7rem;
     text-align: center;
-    line-height: .6rem;
+    line-height: .7rem;
     background-color: #00bd4f;
     font-size: .24rem;
     color: white;

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="description" content="hello">
+    <meta name="keywords" content="a,b,c">
+    <meta name="format-detection" content="email=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>验房-确认订单</title>
+    <script type="text/javascript" src="content/js/cord.js"></script>
+    <link rel="stylesheet" type="text/css" href="content/css/mui.min.css" />
+    <link rel="stylesheet" type="text/css" href="content/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="content/css/confirmOrder.css" />
+    <!--[if lt IE 9]>
+    <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="modal-content">
+  <div class="img-group">
+      <div class="pull-left img">
+          <img class="img-auto" src="./content/images/modal_img.png" alt="" />
+      </div>
+      <div class="pull-left info">
+          <div class="info-cent">
+              <p class="money">￥<em>20元</em>/㎡</p>   
+              <p class="text">验房服务-保驾护航</p>                     
+          </div>
+      </div>
+      <div class="clear"></div>
+  </div>
+
+  <div class="modal-frame">
+      <div class="input-group">
+          <label class="pull-left name" for="name">姓名</label>
+          <div class="pull-right input">
+              <input type="text" />
+          </div>
+          <div class="clear"></div>
+      </div>
+
+      <div class="input-group">
+          <label class="pull-left name" for="name">电话</label>
+          <div class="pull-right input">
+              <input type="text" />
+          </div>
+          <div class="clear"></div>
+      </div>
+
+      <div class="input-group">
+          <label class="pull-left name" for="name">房屋面积</label>
+          <div class="pull-right input">
+              <input type="text" />
+              <span>m²</span>
+          </div>
+          <div class="clear"></div>
+      </div>
+
+      <div class="input-group">
+          <label class="pull-left name" for="name">房屋类型</label>
+          <div class="pull-left input select">
+              <select name="" id="">
+                  <option value="">123</option>
+                  <option value="">456</option>
+              </select>
+          </div>
+          <div class="clear"></div>
+      </div>
+  </div>
+
+  <div class="modal-frame">
+    <div class="input-group select-group">
+      <label class="pull-left name" for="name">所在区域</label>
+      <div class="pull-left input select">
+          <select name="" id="" dir="rtl">
+              <option value="">市</option>
+              <option value="">456</option>
+          </select>
+      </div>
+
+      <div class="pull-left input select">
+          <select name="" id="" dir="rtl">
+              <option value="">区县</option>
+              <option value="">456</option>
+          </select>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="input-group">
+      <label class="pull-left name" for="name">详细地址</label>
+      <div class="pull-right input input-wid">
+          <input type="text" />
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <div class="modal-frame">
+    <div class="input-group select-group-style">
+      <label class="pull-left name" for="name">回访预约</label>
+      <div class="pull-left input select">
+          <select name="" id="">
+              <option value="">26</option>
+              <option value="">456</option>
+          </select>
+      </div>
+
+      <div class="pull-left input select">
+          <select name="" id="">
+            <option value="">12:30</option>
+            <option value="">456</option>
+          </select>
+      </div>
+
+      <div class="pull-left mui-switch mui-active switch-style" id="mySwitch">
+        <div class="mui-switch-handle"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <div class="modal-frame">
+    <p class="notice">注：客服将会在您指定时间进行电话回访，做预约服务确认。请您注意接听，谢谢！</p>
+  </div>
+
+  <div class="btn">
+    <button>确认提交</button>
+  </div>
+</div>
+
+<script type="text/javascript" src="content/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="content/js/mui.min.js"></script>
+<script type="text/javascript" src="content/js/public.js"></script>
+<script>
+  // 切换switch组件
+  mui("#mySwitch").switch();
+  // 查看switch状态
+  var isActive = document.getElementById("mySwitch").classList.contains("mui-active");
+</script>
+</body>
+</html>

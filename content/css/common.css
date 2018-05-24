@@ -21,6 +21,10 @@ body {
 	font-size: 12px;
 	background-color: #f9f9f9;
 }
+p, button, select {
+	margin: 0;
+	padding: 0;
+}
 body,
 input,
 textarea,

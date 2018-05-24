@@ -1,0 +1,175 @@
+.modal-content {
+  padding: .25rem;
+  background-color: white;
+}
+
+.modal-content .close {
+  position: absolute;
+  top: .25rem;
+  right: .25rem;
+  width: .5rem;
+  height: .6rem;
+  text-align: right;
+}
+
+.modal-content .close img {
+  width: .3rem;
+  height: .3rem;
+}
+
+.modal-content .img-group {
+  margin-top: .3rem;
+  padding-bottom: .1rem;
+  border-bottom: #eee solid 1px;
+}
+
+.modal-content .img-group .img {
+  width: 48%;
+  height: 2.15rem;
+  overflow: hidden;
+}
+
+.modal-content .img-group .info {
+  position: relative;
+  width: 50%;
+  height: 2.15rem;
+  margin-left: 2%;
+}
+
+.modal-content .img-group .info .info-cent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.img-group .info .info-cent .money {
+  color: #ff4c4c;
+}
+
+.img-group .info .info-cent .money em {
+  font-size: 14px;
+}
+
+.img-group .info .info-cent .text {
+  margin-top: .1rem;
+  color: #515151;
+}
+
+.modal-content .modal-frame {
+  padding-bottom: .2rem;
+  border-bottom: #eee solid 1px;
+}
+
+.modal-content .modal-frame .input-group {
+  margin-top: .2rem;
+  line-height: .6rem;
+}
+
+.modal-frame .input-group .name {
+  width: 15%;
+  color: #515151;
+}
+
+.modal-frame .input-group .input {
+  width: 83%;
+  margin-left: 2%;
+}
+
+.modal-frame .input-group .input input {
+  width: 50%;
+  height: .6rem;
+  padding-left: .15rem;
+  border-radius: .5rem;
+  border: #ccc solid 1px;
+}
+
+.modal-frame .input-group .select {
+  width: 50%;
+  height: .6rem;
+  overflow: hidden;
+  padding-left: .15rem;
+  border-radius: .5rem;
+  border: #ccc solid 1px;
+  background: url('../images/modal_icon.png') no-repeat 96% center / .2rem;
+}
+
+.modal-frame .input-group .select select {
+  width: 110%;
+  height: .6rem;
+  line-height: .6rem;
+  border: none;
+  background-color: rgba(0,0,0,0);
+  padding: 0;
+}
+
+.modal-frame .select-group .select {
+  width: 30%;
+  padding-left: 0;
+}
+
+.modal-frame .select-group-style .select {
+  width: 30%;
+}
+
+.modal-frame .select-group-style .switch-style {
+  width: 1.3rem;
+  height: .6rem;
+  margin-left: .15rem;
+  vertical-align: middle;
+}
+
+.modal-frame .select-group-style .switch-style:before {
+  font-size: 12px;
+  top: 0px;
+  right: 6px;
+}
+
+.modal-frame .select-group-style .mui-switch.mui-active:before {
+  left: 6px;
+}
+
+.modal-frame .select-group-style .switch-style .mui-switch-handle {
+  width: .55rem;
+  height: .55rem;
+}
+
+.modal-frame .select-group-style .select select {
+  width: 120%;
+}
+
+.modal-frame .select-group .select select {
+  width: 95%;
+  margin-left: -10%;
+  color: #666;
+}
+
+.modal-frame .input-group .input-wid input{
+  width: 90%;
+  margin-bottom: 0;
+}
+
+.modal-content .btn {
+  margin-top: .3rem;
+}
+
+.modal-content .btn button {
+  display: block;
+  width: 80%;
+  height: .7rem;
+  padding: 0;
+  margin: 0 auto;
+  border: none;
+  border-radius: .7rem;
+  text-align: center;
+  line-height: .8rem;
+  background-color: #00bd4f;
+  font-size: .24rem;
+  color: white;
+}
+
+.modal-frame .notice {
+  margin-top: .2rem;
+  line-height: .35rem;
+  font-size: 14px;
+  color: #999;
+}
