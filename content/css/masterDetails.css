@@ -1,0 +1,47 @@
+.master_details {
+  padding: .2rem .25rem;
+  background-color: white;
+}
+
+.details-content {
+  border: #ccc solid 1px;
+}
+
+.details-row {
+  border-bottom: #ccc solid 1px;
+}
+
+.details-img {
+  padding: .2rem;
+}
+
+.details-img img {
+  width: 100%;
+  border-radius: .1rem;
+}
+
+.details-name,
+.details-info {
+  padding: .2rem;
+  line-height: .4rem;
+}
+
+.details-name span:nth-child(1) {
+  margin-right: .1rem;
+  font-size: 14px;
+  color: #333;
+}
+
+.details-name span:nth-child(2) img {
+  width: .25rem;
+  height: .25rem;
+  vertical-align: middle;
+}
+
+.details-info p span {
+  color: #999;
+}
+
+.details-info p {
+  color: #515151;
+}

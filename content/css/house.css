@@ -331,6 +331,22 @@
     color: #515151;
 }
 
+.img-group .info .info-cent .name {
+    line-height: .4rem;
+}
+
+.img-group .info .info-cent .name span:nth-child(1) {
+    margin-right: .1rem;
+    font-size: 14px;
+    color: #333;
+}
+
+.img-group .info .info-cent .name span:nth-child(2) img {
+    width: .25rem;
+    height: .25rem;
+    vertical-align: middle;
+}
+
 .modal-content .modal-frame {
     padding-bottom: .2rem;
     border-bottom: #eee solid 1px;

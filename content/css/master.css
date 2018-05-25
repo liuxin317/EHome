@@ -1,0 +1,11 @@
+.banner img {
+  width: 100%;
+}
+
+.master-group .descs-text {
+  margin-right: .2rem;
+}
+
+.master-group .descs-text:last-of-type {
+  margin-right: 0;
+}
