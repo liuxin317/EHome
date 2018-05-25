@@ -19,7 +19,7 @@
 
 .modal-content .img-group {
   margin-top: .3rem;
-  padding-bottom: .1rem;
+  padding-bottom: .2rem;
   border-bottom: #eee solid 1px;
 }
 
@@ -100,6 +100,7 @@
   border: none;
   background-color: rgba(0,0,0,0);
   padding: 0;
+  color: #999;
 }
 
 .modal-frame .select-group .select {
@@ -140,7 +141,7 @@
 .modal-frame .select-group .select select {
   width: 95%;
   margin-left: -10%;
-  color: #666;
+  color: #999;
 }
 
 .modal-frame .input-group .input-wid input{
@@ -172,4 +173,34 @@
   line-height: .35rem;
   font-size: 14px;
   color: #999;
+}
+
+
+.modal-frame .button button {
+  width: 50%;
+  height: .6rem;
+  border-radius: .6rem;
+  border: #ccc solid 1px;
+  background-color: #f8f8f8;
+}
+
+.modal-frame .button-group button {
+  width: 30%;
+  height: .6rem;
+  margin-right: .1rem;
+  border-radius: .6rem;
+  border: #ccc solid 1px;
+  color: #515151;
+  background-color: white;
+}
+
+.modal-frame .button-group button.active,
+.modal-frame .button-group button:hover {
+  background-color: #00bd4f;
+  border: #00bd4f solid 1px;
+  color: white;
+}
+
+.modal-frame .button-group button:last-of-type {
+  margin-right: 0;
 }

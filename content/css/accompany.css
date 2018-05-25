@@ -1,0 +1,66 @@
+.project-box {
+    background: none;
+}
+
+.snail-box {
+    background: white;
+}
+
+.accompany-project ul > li {
+    display: table;
+    width: 23.5%;
+    height: 1.5rem;
+    padding: .2rem 0;
+    margin-right: 2%;
+    text-align: center;
+    background-color: white;
+    border-radius: .1rem;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .1);
+}
+
+.accompany-project ul > li:last-of-type {
+    margin-right: 0;
+}
+
+.accompany-project ul > li .list-group {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.accompany-project ul > li .list-group img {
+    width: .75rem;
+    height: .75rem;
+}
+
+.accompany-project ul > li .list-group p {
+    margin-top: .1rem;
+    color: #787878;
+}
+
+.modal-frame .button button {
+    width: 50%;
+    height: .6rem;
+    border-radius: .6rem;
+    border: #ccc solid 1px;
+    background-color: #f8f8f8;
+}
+
+.modal-frame .button-group button {
+    width: 30%;
+    height: .6rem;
+    margin-right: .1rem;
+    border-radius: .6rem;
+    border: #ccc solid 1px;
+    color: #515151;
+    background-color: white;
+}
+
+.modal-frame .button-group button.active {
+    background-color: #00bd4f;
+    border: #00bd4f solid 1px;
+    color: white;
+}
+
+.modal-frame .button-group button:last-of-type {
+    margin-right: 0;
+}

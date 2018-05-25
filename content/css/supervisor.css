@@ -1,0 +1,185 @@
+.project-box {
+    background: none;
+}
+
+.snail-box {
+    background: white;
+}
+
+.superviser-project {
+    position: relative;
+}
+
+.superviser-project .project-line {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    z-index: 1;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    width: 1px;
+    height: 100%;
+    background-color: #ccc;
+}
+
+.superviser-project .project-group {
+    position: relative;
+    z-index: 5;
+    background: none;
+}
+
+.superviser-project .project-group .spor-line {
+    position: absolute;
+    left: 49%;
+    top: .3rem;
+    z-index: 2;
+    width: 50%;
+    height: 1px;
+    background-color: #00bd4f;
+}
+
+.superviser-project .project-group .spor-line::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -.05rem;
+    width: .15rem;
+    height: .15rem;
+    border-radius: .15rem;
+    background-color: #00bd4f;
+}
+
+.superviser-project .project-group .project-frame {
+    width: 40%;
+}
+
+.project-group .project-frame {
+    position: relative;
+    z-index: 5;
+}
+
+.project-group .project-frame .name {
+    height: .6rem;
+    background-color: #00bd4f;
+    text-align: center;
+    line-height: .6rem;
+    font-size: .28rem;
+    font-weight: bold;
+    color: white;
+}
+
+.superviser-project .project-group .project-frame .project-text {
+    padding: .2rem;
+    border: #00bd4f solid 1px;
+    border-top: none;
+}
+
+.project-group .project-frame .project-text p {
+    margin-top: .1rem;
+    text-align: center;
+    color: #515151;
+}
+
+.superviser-project .project-group-left .spor-line {
+    left: 0;
+    background-color: #b1cb00;
+}
+
+.superviser-project .project-group-left .spor-line::before {
+    left: 98%;
+    background-color: #b1cb00;
+}
+
+.project-group-left .project-frame .name {
+    background-color: #b1cb00;
+}
+
+.superviser-project .project-group-left .project-frame .project-text {
+    border: #b1cb00 solid 1px;    
+}
+
+.tool-box .column-title {
+    padding-top: .4rem;
+}
+
+.contrast-box {
+    padding-bottom: .3rem;
+}
+
+.contrast-content {
+    padding: 0 .1rem;
+    margin-top: .3rem;
+    background: url('../images/contrast_bk.png') no-repeat center center / 1.2rem;
+}
+
+.contrast-content .contrast-jl,
+.contrast-content .contrast-other {
+    width: 40%;
+}
+
+.contrast-content .name {
+    text-align: center;
+    line-height: .5rem;
+    font-size: .24rem;
+    color: #515151;
+}
+
+.contrast-content .btn-group li{
+    width: 98%;
+    height: .6rem;
+    margin: .2rem auto 0;
+    text-align: center;
+    line-height: .6rem;
+    border-radius: .6rem;
+    color: white;
+}
+
+.contrast-content .btn-group li:nth-child(1) {
+    background-color: #09c600;
+}
+
+.contrast-content .btn-group li:nth-child(2) {
+    background-color: #0bde00;
+}
+
+.contrast-content .btn-group li:nth-child(3) {
+    background-color: #69ca00;
+}
+
+.contrast-content .btn-group li:nth-child(4) {
+    background-color: #9dcb43;
+}
+
+.contrast-content .btn-group li:nth-child(5) {
+    background-color: #c0cb43;
+}
+
+.contrast-content .btn-group li:nth-child(6) {
+    background-color: #cbb943;
+}
+
+.project-listed ul {
+    margin-bottom: .2rem;
+}
+
+.project-listed ul > li {
+    width: 25%;
+    text-align: center;
+    background: url('../images/snail_icon_right.png') no-repeat right .4rem / .12rem;
+}
+
+.project-listed ul > li:last-of-type {
+    background: none;
+}
+
+.project-listed ul > li img {
+    width: .8rem;
+}
+
+.project-listed ul > li p {
+    margin-top: .1rem;
+    color: #515151;
+}
