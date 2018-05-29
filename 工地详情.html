@@ -12,6 +12,7 @@
     <title>工地详情</title>
     <script type="text/javascript" src="content/js/cord.js"></script>
     <link rel="stylesheet" type="text/css" href="content/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="content/css/confirmOrder.css" />
     <link rel="stylesheet" type="text/css" href="content/css/live.css" />
     <link rel="stylesheet" type="text/css" href="content/css/site.css" />
     <!--[if lt IE 9]>
@@ -148,9 +149,48 @@
     </div>
 
     <div class="fixed-btn">
-        <button>预约参观工地</button>
+        <button class="open_modal">预约参观工地</button>
     </div>
 </section>
+
+<!-- 提交浮窗 -->
+<div class="submit-modal">
+    <div class="modal-content">
+        <div class="close">
+            <img src="./content/images/modal_close.png" alt="" />
+        </div>
+
+        <div class="modal-frame">
+            <div class="input-group">
+                <label class="pull-left name" for="name">工地名称</label>
+                <div class="pull-right input">
+                    <input type="text" style="width: 80%;" />
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="input-group">
+                <label class="pull-left name" for="name">您的称呼</label>
+                <div class="pull-right input">
+                    <input type="text" />
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="input-group">
+                <label class="pull-left name" for="name">手机号码</label>
+                <div class="pull-right input">
+                    <input type="text" />
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <div class="btn">
+            <button>立即预约</button>
+        </div>
+    </div>
+</div>
 
 <script type="text/javascript" src="content/js/jquery-1.11.1.min.js"></script>
   <script type="text/javascript" src="content/js/public.js"></script>

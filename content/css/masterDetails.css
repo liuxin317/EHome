@@ -55,3 +55,20 @@
 .details-row:last-of-type {
   border-bottom: none;
 }
+
+.fixed-btn {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+.fixed-btn button {
+  width: 100%;
+  height: .8rem;
+  background-color: #00bd4f;
+  color: white;
+  font-size: .24rem;
+  border: none;
+}
