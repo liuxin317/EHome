@@ -1,0 +1,149 @@
+.designer-box {
+    margin-bottom: .8rem;
+}
+
+.site-img {
+    padding: .2rem;
+    border-bottom: #ccc solid 1px;
+}
+
+.site-img img {
+    width: 100%;
+}
+
+.designer-imgs {
+  padding: .2rem;
+}
+
+.designer-imgs ul > li {
+    position: relative;
+    width: 32%;
+    height: 2.1rem;
+    border-radius: .1rem;
+    margin-right: 2%;
+    overflow: hidden;
+}
+
+.designer-imgs ul > li:last-of-type {
+  margin-right: 0;
+}
+
+.designer-imgs ul > li p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: .2rem 0;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.chart-box {
+    padding: 0 .2rem .2rem;
+    border-bottom: #ccc solid 1px;
+}
+
+.chart-box .live-group .live-chart,
+.start-end {
+    width: 90%;
+}
+
+.chart-box .live-group .live-text {
+    width: 10%;
+}
+
+.fixed-btn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.fixed-btn button {
+    width: 100%;
+    height: .8rem;
+    background-color: #00bd4f;
+    color: white;
+    font-size: .24rem;
+    border: none;
+}
+
+.progress-box {
+    position: relative;
+    margin: .2rem;
+}
+
+.progress-box .line {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    border-left: #ccc dashed 1px;
+}
+
+.progress-box .progress-group {
+    position: relative;
+}
+
+.progress-group .spot {
+    position: absolute;
+    top: .3rem;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 1px;
+    background-color: #e2e2e2;
+}
+
+.progress-group .spot::before {
+    content: '';
+    position: absolute;
+    top: -.07rem;
+    left: -.06rem;;
+    width: .15rem;
+    height: .15rem;
+    border-radius: 100%;
+    background-color: #00bd4f;
+}
+
+.progress-group .progress-content {
+    position: relative;
+    z-index: 5;
+}
+
+.progress-content .date {
+    width: 20%;
+    padding-left: .2rem;
+    color: #888;
+}
+
+.progress-content .imgs {
+    width: 80%;
+}
+
+.progress-content .imgs input {
+    width: 100%;
+    height: .6rem;
+    padding-left: .2rem;
+    background-color: #ccc;
+    border: none;
+}
+
+.progress-content .imgs .img-group {
+    padding: .2rem;
+    border: #ccc solid 1px;
+    border-top: none;
+}
+
+.progress-content .imgs .img-group ul > li {
+    width: 32%;
+    height: 1.8rem;
+    border-radius: .2rem;
+    margin-right: 2%;
+    overflow: hidden;
+} 
+
+.progress-content .imgs .img-group ul > li:last-of-type {
+    margin-right: 0%;
+}

@@ -44,4 +44,14 @@
 
 .details-info p {
   color: #515151;
+  line-height: .3rem;
+}
+
+.details-info p img {
+  width: .25rem;
+  margin-right: .1rem;
+}
+
+.details-row:last-of-type {
+  border-bottom: none;
 }

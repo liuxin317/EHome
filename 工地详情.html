@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="description" content="hello">
+    <meta name="keywords" content="a,b,c">
+    <meta name="format-detection" content="email=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>工地详情</title>
+    <script type="text/javascript" src="content/js/cord.js"></script>
+    <link rel="stylesheet" type="text/css" href="content/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="content/css/live.css" />
+    <link rel="stylesheet" type="text/css" href="content/css/site.css" />
+    <!--[if lt IE 9]>
+    <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<section class="designer-box">
+    <div class="designer-content">
+        <div class="site-img">
+            <img src="./content/images/site_img.jpg" alt="" />
+        </div>
+        <div class="designer-row">
+            <div class="pull-left">
+                <p class="text"><span>楼盘名称：</span>中海国际</p>
+            </div>
+        <div class="pull-left">
+            <p class="text"><span>户型：</span>三室一厅一厨一卫</p>            
+        </div>
+        <div class="clear"></div>
+        </div>
+
+        <div class="designer-row">
+            <div class="pull-left">
+                <p class="text"><span>面积：</span>129㎡</p>
+            </div>
+            <div class="pull-left">
+                <p class="text"><span>户型：</span>北欧风格</p>            
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="designer-imgs">
+            <ul class="list-inline">
+                <li>
+                    <img class="img-auto" src="./content/images/site_img02.jpg" alt="" />
+                    <p class="intro">监理：张亮</p>
+                </li>
+                <li>
+                    <img class="img-auto" src="./content/images/site_img02.jpg" alt="" />
+                    <p class="intro">设计：黑娃</p>
+                </li>
+                <li>
+                    <img class="img-auto" src="./content/images/site_img02.jpg" alt="" />
+                    <p class="intro">工长：刘勇勇</p>
+                </li>
+                <div class="clear"></div>
+            </ul>
+        </div>
+
+        <div class="chart-box">
+            <div class="live-group">
+                <div class="pull-left live-chart">
+                    <div class="live-progress" data-width="30%"></div>
+                    <div class="title">
+                        <img src="./content/images/live_icon.png" alt="" />
+                    </div>
+                </div>
+                <div class="pull-left live-text">99天</div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="start-end">
+                <div class="pull-left">
+                    <p>开工</p>
+                    <p>2018-04-12</p>
+                </div>
+                <div class="pull-right">
+                    <p>竣工</p>
+                    <p>2018-04-12</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <div class="progress-box">
+            <div class="line"></div>
+            <div class="progress-group">
+                <div class="spot"></div>
+                <div class="progress-content">
+                    <div class="pull-left date">05-02</div>
+                    <div class="pull-left imgs">
+                        <input placeholder="编辑文字" type="text" />
+
+                        <div class="img-group">
+                            <ul class="list-inline">
+                                <li>
+                                    <img class="img-auto" src="./content/images/site_img01.jpg" alt="" />
+                                </li>
+                                <li>
+                                    <img class="img-auto" src="./content/images/site_img01.jpg" alt="" />
+                                </li>
+                                <li>
+                                    <img class="img-auto" src="./content/images/site_img01.jpg" alt="" />
+                                </li>
+                                <div class="clear"></div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="progress-box">
+            <div class="line"></div>
+            <div class="progress-group">
+                <div class="spot"></div>
+                <div class="progress-content">
+                    <div class="pull-left date">05-02</div>
+                    <div class="pull-left imgs">
+                        <input placeholder="编辑文字" type="text" />
+
+                        <div class="img-group">
+                            <ul class="list-inline">
+                                <li>
+                                    <img class="img-auto" src="./content/images/site_img01.jpg" alt="" />
+                                </li>
+                                <li>
+                                    <img class="img-auto" src="./content/images/site_img01.jpg" alt="" />
+                                </li>
+                                <li>
+                                    <img class="img-auto" src="./content/images/site_img01.jpg" alt="" />
+                                </li>
+                                <div class="clear"></div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed-btn">
+        <button>预约参观工地</button>
+    </div>
+</section>
+
+<script type="text/javascript" src="content/js/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="content/js/public.js"></script>
+  <script>
+      $(function () {
+          // 开启弹窗
+          $('.open_modal').on('click', function () {
+              $('.submit-modal').stop(true).fadeIn(50);
+          })
+
+          // 关闭弹窗
+          $('.close').on('click', function () {
+              $('.submit-modal').stop(true).fadeOut(50);
+          })
+
+          // 编辑进度条宽度
+          $('.live-progress').each(function () {
+              var width = $(this).attr('data-width');
+
+              $(this).css({
+                  width: width
+              }).text(width)
+          })
+      })
+  </script>
+</body>
+</html>

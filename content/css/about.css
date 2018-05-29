@@ -1,0 +1,144 @@
+.banner {
+    background-color: white;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.about-info {
+    background: white url(../images/about_bk.jpg) no-repeat .2rem top / 100% 100%;
+}
+
+.about-info .info-group {
+    width: 50%;
+    padding: 0 .2rem;
+}
+
+.about-info .info-group:nth-child(1) {
+    /* background: url(../images/about_bk02.jpg) no-repeat top center / 100% 100%; */
+}
+
+.about-info .info-group:nth-child(2) {
+    /* background: url(../images/about_bk03.jpg) no-repeat top center / 100% 100%; */
+}
+
+.about-info .info-group .info-content {
+    text-align: center;
+}
+
+.info-content figcation {
+    font-weight: bold;    
+}
+
+.info-content figcation p:first-of-type {
+    color: #434343;
+    font-size: .32rem;
+}
+
+.info-content figcation p:last-of-type {
+    margin-top: .1rem;
+    font-size: .3rem;
+    color: #00bd4f;
+}
+
+.info-content .text {
+    margin-top: .4rem;
+    color: #515151;
+    line-height: .35rem;
+    text-align: justify;
+}
+
+.info-content .img-group {
+    margin-top: .3rem;
+}
+
+.info-content .img-group img {
+    width: 50%;
+}
+
+.inter img{
+    width: 100%;
+}
+
+.about-imgs {
+    padding: 0 .2rem;
+}
+
+.about-imgs .img {
+    margin-top: .3rem;
+}
+
+.about-imgs .img img {
+    width: 100%;
+}
+
+footer {
+    position: relative;
+    margin-top: 1rem;
+}
+
+footer img {
+    width: 100%;
+}
+
+footer .phone {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: .3rem 0 .2rem;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.phone .input-group {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.phone .input-group input {
+    width: 68%;
+    height: .6rem;
+    border-radius: .1rem;
+    padding-left: .1rem;
+    border: none;
+    background-color: white;
+}
+
+.phone .input-group button {
+    width: 30%;
+    height: .6rem;
+    border-radius: .1rem;
+    background-color: #00bd4f;
+    border: none;
+    color: white;
+}
+
+.phone-number {
+    margin-top: .2rem;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+.foot-btn {
+    position: absolute;
+    top: -.4rem;
+    left: 0;
+    width: 100%;
+}
+
+.foot-btn button {
+    display: block;
+    width: 90%;
+    height: .8rem;
+    margin: 0 auto;
+    border-radius: .8rem;
+    border: none;
+    color: white;
+    background: linear-gradient(to right, #00b24a, #006a2c);
+    background: -webkit-linear-gradient(to right, #00b24a, #006a2c);
+    background: -moz-linear-gradient(to right, #00b24a, #006a2c);
+    background: -o-linear-gradient(to right, #00b24a, #006a2c);
+    background: -ms-linear-gradient(to right, #00b24a, #006a2c);
+}
