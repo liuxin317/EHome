@@ -1,0 +1,153 @@
+body {
+  background-color: white;
+}
+
+.fixed-btn {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: .9rem;
+}
+
+.fixed-btn button {
+  width: 100%;
+  height: .9rem;
+  line-height: .9rem;
+  border: none;
+  background-color: #00bd4f;
+  color: white;
+  font-size: 14px;
+}
+
+.fixed-btn button img {
+  width: .4rem;
+  margin-top: -.1rem;
+  vertical-align: middle;
+  font-size: 0;
+}
+
+.account-box {
+  margin: .1rem .25rem;
+  border: #eee solid 1px;
+}
+
+.account-row {
+  border-bottom: #eee solid 1px;
+}
+
+.account-row:last-of-type {
+  border-bottom: none;
+}
+
+.calendar-group .calendar-btn {
+  width: 40%;
+  padding: .15rem 0;
+  border-right: #eee solid 1px;
+  text-align: center;
+}
+
+.calendar-group .calendar-btn button {
+  width: 60%;
+  height: .6rem;
+  border-radius: .1rem;
+  border: none;
+  color: white;
+  background-color: #959595;
+}
+
+.calendar-group .money {
+  width: 60%;
+  padding: .15rem .1rem;
+  line-height: .6rem;
+}
+
+.calendar-group .money label {
+  color: #666;
+  margin-right: .15rem;
+}
+
+.calendar-group .money input {
+  width: 50%;
+  height: .6rem;
+  padding-left: .1rem;
+  border-radius: .1rem;
+  border: #eee solid 1px;
+}
+
+.tabs ol > li {
+  width: 25%;
+  height: .7rem;
+  text-align: center;
+  line-height: .7rem;
+  color: #666;
+  border-right: #eee solid 1px;
+}
+
+.tabs ol > li:last-of-type {
+  border-right: none;
+}
+
+.tabs ol > li.active {
+  background-color: #00bd4f;
+  color: white;
+  border-right: none;
+}
+
+.tab-artificial {
+  padding: 0 .2rem .2rem;
+}
+
+.tab-artificial ol > li {
+  display: table;
+  width: 23.5%;
+  height: 1.1rem;
+  text-align: center;
+  border-radius: .15rem;
+  border: #eee solid 1px;
+  margin: .2rem 2% 0 0;
+}
+
+.tab-artificial ol > li:nth-child(4n) {
+  margin-right: 0;
+}
+
+.tab-artificial ol > li .icon-group {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.tab-artificial ol > li .icon-group img {
+  width: .5rem;
+}
+
+.tab-artificial ol > li .icon-group p {
+  color: #515151;
+}
+
+.tab-artificial ol > li.active {
+  background-color: #00bd4f;
+  border: none;
+}
+
+.tab-artificial ol > li.active .icon-group p {
+  color: white;
+}
+
+.note-box {
+  padding: .25rem;
+}
+
+.note-box label {
+  width: 20%;
+  line-height: .6rem;
+}
+
+.note-box input {
+  width: 80%;
+  height: .6rem;
+  padding-left: .1rem;
+  border-radius: .1rem;
+  border: #eee solid 1px;
+}

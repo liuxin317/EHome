@@ -1,0 +1,267 @@
+body {
+  margin-bottom: .9rem;
+}
+
+.banner {
+  position: relative;
+  z-index: 1;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  padding-bottom: .5rem;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.banner-content h4 {
+  font-size: .28rem;
+  color: #a4b2da;
+  font-weight: bold;
+}
+
+.banner-content .btn {
+  margin: 0.3rem 0 .5rem;
+}
+
+.banner-content .btn button {
+  width: 2.4rem;
+  height: .6rem;
+  border: #2344a2 solid 1px;
+  background-color: #0f2981;
+  border-radius: .1rem;
+  font-size: .32rem;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-content .text {
+  font-size: .24rem;
+  color: #c2cdf6;
+}
+
+.banner-content .text span {
+  margin: 0 .5rem;
+}
+
+.tabs-box {
+  position: relative;
+  z-index: 5;
+  margin-top: -.3rem;
+}
+
+.tabs-box .tabs-btn {
+  padding: 0 .25rem;
+}
+
+.tabs-box .tabs-btn button {
+  width: 49%;
+  height: .6rem;
+  text-align: center;
+  border: none;
+  border-radius: .1rem;
+  background-color: #e0e0e0;
+  color: #626262;
+}
+
+.tabs-box .tabs-btn button span {
+  padding-left: .4rem;
+}
+
+.tabs-box .tabs-btn button.pull-left span {
+  background: url('../images/bill_icon02.png') no-repeat left center / .35rem .35rem;
+}
+
+.tabs-box .tabs-btn button.pull-right span {
+  background: url('../images/bill_icon04.png') no-repeat left center / .35rem .35rem;
+}
+
+.tabs-box .tabs-btn button.pull-left.active {
+  background-color: #00bd4f;
+  color: white;
+}
+
+.tabs-box .tabs-btn button.pull-right.active {
+  background-color: #00bd4f;
+  color: white;
+}
+
+.tabs-box .tabs-btn button.pull-left.active span {
+  background: url('../images/bill_icon01.png') no-repeat left center / .35rem .35rem;
+}
+
+.tabs-box .tabs-btn button.pull-right.active span {
+  background: url('../images/bill_icon03.png') no-repeat left center / .35rem .35rem;
+}
+
+.tabs-content {
+  position: relative;
+  padding: 0 .25rem;
+}
+
+.detail-group {
+  margin-top: .2rem;
+}
+
+.detail-group .time {
+  color: #999;
+}
+
+.detail-group .detail-row {
+  margin-top: .2rem;
+  padding: .1rem .2rem;
+  background-color: white;
+}
+
+.detail-row .icon {
+  width: .5rem;
+  height: .5rem;
+  border-radius: .5rem;
+  text-align: center;
+  line-height: .5rem;
+}
+
+.detail-row .icon img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.detail-row .icon.icon01 {
+  background-color: #ff7503;
+}
+
+.detail-row .text {
+  width: 88%;
+  color: #666;
+  font-size: 13px;
+}
+
+.detail-row .text .text-row {
+  margin-bottom: .1rem;
+}
+
+.detail-row .text .text-row:last-of-type {
+  margin-bottom: 0;
+}
+
+.detail-row .text .text-style {
+  color: #999;
+  font-size: 12px;
+}
+
+.detail-row .icon.icon02 {
+  background-color: #00bd4f;
+}
+
+.detail-row .icon.icon03 {
+  background-color: #007abc;
+}
+
+.fixed-btn {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: .9rem;
+}
+
+.fixed-btn button {
+  width: 100%;
+  height: .9rem;
+  line-height: .9rem;
+  border: none;
+  background-color: #00bd4f;
+  color: white;
+}
+
+.fixed-btn button img {
+  width: .4rem;
+  vertical-align: middle;
+}
+
+.chart-box {
+  position: relative;
+  margin-top: .3rem;
+  padding: .25rem;
+  background-color: white;
+}
+
+.chart-box .chart-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.chart-box .chart-text p {
+  color: #666;
+}
+
+.chart-box .chart-text p:nth-child(2) {
+  color: #333;
+  font-weight: bold;
+}
+
+.tab-chart-active {
+  position: absolute;
+  top: 0;
+  left: -1000px;
+  width: 100%;
+}
+
+.tab-chart .detail-row {
+  height: .8rem;
+  margin-top: .2rem;
+  padding: .2rem;
+  background-color: white;
+  line-height: .4rem;
+}
+
+.tab-chart .detail-row .icon {
+  width: .1rem;
+  height: .1rem;
+  margin-top: .15rem;
+  border-radius: .1rem;
+}
+
+.tab-chart .detail-row .text {
+  width: 95%;
+}
+
+.detail-row .text .text-row span:last-of-type {
+  color: #333;
+}
+
+.tab-chart .detail-row .icon01 {
+  background-color: #ff7503;
+}
+
+.tab-chart .detail-row .icon02 {
+  background-color: #bc0000;
+}
+
+.tab-chart .detail-row .icon03 {
+  background-color: #00bc30;
+}
+
+.tab-chart .detail-row .icon04 {
+  background-color: #007abc;
+}
