@@ -68,7 +68,7 @@
 .about-imgs .img {
     display: table;
     height: 3.2rem;
-    margin-top: .3rem;
+    margin: .3rem auto 0;
     padding: 0 .2rem;
     background-color: white;
 }
